@@ -28,6 +28,7 @@ RDEPEND=">=dev-libs/icu-4.3.1:=
 		libressl? ( dev-libs/libressl )
 		net-misc/curl
 		dev-python/sphinx
+		dev-python/sphinx_rtd_theme
 		selinux? ( sec-policy/selinux-couchdb )
 		sys-process/psmisc
 "
