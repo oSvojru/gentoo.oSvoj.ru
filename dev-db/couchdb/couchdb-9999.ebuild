@@ -56,9 +56,9 @@ src_unpack() {
 	git clone -b $EGIT_BRANCH --progress $EGIT_REPO_URI ${S}
 	einfo ${A}
 	cd ${S}
-    ./configure  --with-curl --erlang-md5
+    ./configure  --with-curl --erlang-md5 
     einfo "${S}"
-	make -j1 release
+	make -j1  release
 	einfo "end unpack ------------------------------------------------------------------------------------"
 }
 
